@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: aaacr.azurecr.io/web-app:1.0
+        image: docker89781/datadog-promo:latest
         ports:
         - containerPort: 80
         resources:
